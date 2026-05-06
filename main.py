@@ -4,6 +4,9 @@ from typing import List
 
 app = FastAPI()
 
+
+
+
 # Modelo de dados
 class Item(BaseModel):
     id: int
